@@ -1,0 +1,114 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: solid #004075 1px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px #004075;
+    width: 650px;
+    height: 550px;
+    padding: 15px;
+    background-size: 580px 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #004075;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.form-header ::after {
+    content: "";
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #004075;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+
+.input-box input, select{
+    margin: 0.3rem 0;
+    padding: 0.4rem 0.6rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px #004075;
+}
+
+.input-box input:hover, select:hover {
+    background-color: aliceblue;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #004075;
+}
+
+.combo-box select:focus-visible {
+    outline: 1px solid #004075;
+}
+
+.input-box label,
+.combo-box label,
+.gender-title h6 {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #004075;
+}
+
+.input-box input::placeholder {
+    color: rgb(157, 157, 157);
+}
+
+.gender-inputs {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px #004075;
+}
+
+.gender-inputs:hover {
+    background-color: aliceblue;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2.5rem 0 2.5rem;
+    padding: 0 0.5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.3rem;
+}
+
+.gender-input label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: black;
+}

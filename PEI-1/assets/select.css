@@ -1,0 +1,124 @@
+button {
+    border: none;
+    background-color: #004075;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #003158;
+    transition: 10ms ease-in-out;
+}
+
+.area-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+#main-button {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#main-button button {
+    width: 100%;
+}
+
+#main-button button,img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+#main-button img {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-cadastro img {
+    display: flex;
+    margin: auto;
+}
+
+.btn-gestao img {
+    display: flex;
+    margin: auto;
+}
+
+.btn-relatorio img {
+    display: flex;
+    margin: auto;
+}
+
+.btn-agendamento img {
+    display: flex;
+    margin: auto;
+}
+
+.btn-triagem img {
+    display: flex;
+    margin: auto;
+}
+
+.btn-bolsa img {
+    display: flex;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 2px;
+}
+
+.grid button {
+    width: 100%;
+    height: 120px;
+}
+
+/*
+#container {
+    background-color: white;
+    width: 780px;
+    height: 500px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-image: url(assets/hemoware1.png);
+    background-size: 580px 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: #004075 3px solid;
+}
+*/
+
+/*
+#container {
+    border: solid #004075 1px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 2px grey;
+    width: 650px;
+    height: 550px;
+    padding: 15px;
+    background-image: url(assets/imagens/hemoware.png);
+    background-size: 580px 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/

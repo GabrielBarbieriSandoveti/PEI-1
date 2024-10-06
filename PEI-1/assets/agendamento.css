@@ -1,0 +1,53 @@
+/*
+Formatação da área dos inputs,
+Formatação das caixas de texto e seletores
+*/
+.input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+.input-box, 
+.combo-box,
+.date-input {
+    margin-top: 0.6rem;
+    margin-left: 1.2rem;
+}
+
+.input-group input, select{
+    
+    margin-top: 5px;
+    padding-left: 5px;
+    width: 350px;
+    height: 25px;
+    background-color: rgb(206, 206, 206);
+    border: none;
+}
+
+/*
+Formatação do rodapé e botões
+*/
+button {
+    border: none;
+    background-color: #004075;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    height: 40px;
+    width: 50vh;
+    cursor: pointer;
+}
+
+.baseboard-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 745px;
+    margin-top: 4rem;
+    margin-left: 1.2rem;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+}
