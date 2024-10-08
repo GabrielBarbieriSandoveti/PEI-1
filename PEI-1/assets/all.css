@@ -1,3 +1,4 @@
+/* Formatação padrão */
 * {
     margin: 0;
     padding: 0;
@@ -10,33 +11,87 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: "Poppins", sans-serif;
 }
+
+/* Formatação dos botões */
+button {
+    border: none;
+    background-color: #004075;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#area-button {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    border: 3px solid #004075;
+    background-color: #005092;
+}
+/*Fim da formatação dos botões */
+
 /* 740x420 */
+
+/* Formatação dos botões */
 #container {
     background-color: white;
     width: 780px;
     height: 500px;
     padding: 20px 40px 20px 40px;
-    border-top: #004075 3px solid;
+    border-top: #004075 5px solid;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 -4px 3px -3px #004075;
 }
+/* Fim */
 
-
-.area-title {
+/* Formatação do cabeçalho do container */
+#area-title {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#menu-title {
-    margin-top: 20px;
-    font-size: 2em;
+#title {
+    font-size: 1.5rem;
     font-family: "Roboto Slab", sans-serif;
     color: #004075;
     letter-spacing: 1rem;
     text-transform: uppercase;
 }
+/* Fim do cabeçalho */
 
-.btn button:hover {
-    transform: scale(1.02);
-    transition: 10ms ease-in-out;
+/* Formatação dos inputs */
+
+#input-group {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
+
+.input-group-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.input-group-text input {
+    padding-left: 10px;
+    background-color: rgb(224, 224, 224);
+    border:1px solid rgb(206, 206, 206);
+}
+
+.input-group-text input:focus-visible {
+    outline: 2px solid rgb(206, 206, 206);
+}
+
+/* Fim inputs */
