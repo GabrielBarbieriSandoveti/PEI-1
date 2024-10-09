@@ -2,13 +2,15 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+
 body {
-    background-color: #6fa3e6;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #6fa3e6;
     height: 100vh;
     margin: 0;
     font-family: "Poppins", sans-serif;
@@ -95,3 +97,48 @@ button {
 }
 
 /* Fim inputs */
+
+/* !CONFERIR E REFATORAR */
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    z-index: 100;
+    background: #004075;
+}
+
+#nav-title {
+    margin-left: 50px;
+    font-weight: 1.5rem;
+    color: #ffffff;
+    font-weight: 2rem;
+}
+
+#nav-bar a {
+    font-size: 1.2rem;
+    color: #fff;
+    position: relative;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+#nav-bar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: 100ms;
+}
+
+#nav-bar a:hover:before {
+    width: 100%;
+}
