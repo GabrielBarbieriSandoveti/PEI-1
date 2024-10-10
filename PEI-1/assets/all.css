@@ -75,18 +75,18 @@ button {
 
 #input-group {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
 }
 
 .input-group-text {
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    /* Label fica a esquerda */
+    align-items: left;
     margin: 12px;
 }
 
-.input-group-text input {
+.input-group-text input, select {
     padding-left: 10px;
     background-color: rgb(224, 224, 224);
     border:1px solid rgb(206, 206, 206);

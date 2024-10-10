@@ -22,24 +22,29 @@
         </div>
         <div id="container">
             <form action="#">
-                <div class="area-title">
-                    <div id="menu-title">
+                <div id="area-title">
+                    <div id="title">
                         <h2>Agendamento</h2>
                     </div>
                 </div>
 
-                <div class="input-group">
-                    <div class="input-box">
+                <div id="input-group">
+                    <div class="input-group-text">
                         <label for="nome-completo">Doador:</label>
                         <input id="nome-completo" type="text" name="nome-completo" placeholder="Nome completo" required></input>
                     </div>
 
-                    <div class="input-box">
+                    <div class="input-group-text">
+                        <label for="nome-completo">Receptor:</label>
+                        <input id="nome-completo" type="text" name="nome-completo" placeholder="Nome completo" required></input>
+                    </div>
+                    
+                    <div class="input-group-text">
                         <label for="cpf">CPF:</label>
                         <input id="cpf" type="number" name="cpf" placeholder="xxx.xxx.xxx-xx" required></input>
                     </div>
 
-                    <div class="combo-box">
+                    <div class="input-group-text">
                         <label for="estado">Tipo:</label>
                         <select id="estado" name="estado" required>
                             <optgroup label="Escolha">
@@ -49,29 +54,25 @@
                         </select>
                     </div>
 
-                    <div class="input-box">
-                        <label for="nome-completo">Receptor:</label>
-                        <input id="nome-completo" type="text" name="nome-completo" placeholder="Nome completo" required></input>
-                    </div>
 
-                    <div class="date-input">
+                    <div class="input-group-text">
                         <label for="data">Data:</label>
                         <input id="data" type="date" name="data" required>
                     </div>
 
-                    <div class="date-input">
+                    <div class="input-group-text">
                         <label for="time">Hora:</label>
                         <input id="time" type="time" name="time" required>
                     </div>
                 </div>
 
-                <div class="baseboard-buttons">
-                    <div class="btn">
-                        <button type="button" onclick="location.href='#'">Agendar</button>
+                <div id="area-button">
+                    <div>
+                        <button class="btn" type="button" onclick="location.href='#'">Agendar</button>
                     </div>
 
-                    <div class="btn">
-                        <button type="button" onclick="location.href='#'">Histórico</button>
+                    <div>
+                        <button class="btn" type="button" onclick="location.href='#'">Histórico</button>
                     </div>
                 </div>
             </form>
