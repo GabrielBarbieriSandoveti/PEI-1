@@ -8,16 +8,13 @@ h4 {
 }
 
 #area-button {
-    width: 100%;
-}
-
-#title {
     margin-top: 2.5rem;
+    width: 100%;
 }
 
 #input-group {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 1.5rem;
 }
 
@@ -29,12 +26,30 @@ h4 {
     height: 25px;
 }
 
+#gender-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gender-input label {
+    margin: 12px;
+}
+
+/*
 #gender-area {
     display: flex;
     justify-content: left;
     padding: 12px 0 20px 12px;
 }
-
+*/
+/*
 #gender-title {
     margin-right: 20px;
 }

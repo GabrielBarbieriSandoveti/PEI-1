@@ -7,6 +7,10 @@ button {
     flex-direction: column;
 }
 
+#title {
+    margin-top: 0;
+}
+
 #input-group {
     margin-top: 25px;
 }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hemoware:Doador</title>
+        <link rel="stylesheet" type="text/css" href="assets/all.css">
+        <link rel="stylesheet" type="text/css" href="assets/cadastro.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="nav-bar">
+            <div id="nav-title">
+                <h1>Hemoware</h1>
+            </div>
+            <div class="nav-list">
+                <a href="referencias.html">Home</a>
+                <a href="index.html">Sair</a>
+            </div>
+        </div>
+        <div id="container">
+            <form action="#">
+                <div id="area-title">
+                    <div id="title">
+                        <h2>Paciente</h2>
+                    </div>
+                </div>
+
+                <div id="input-group">
+                    <div class="input-group-text">
+                        <label for="nome-completo">Nome completo:</label>
+                        <input id="nome-completo" type="text" name="nome-completo" placeholder="Paciente" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="nome-completo">Data de nascimento:</label>
+                        <input id="nome-completo" type="date" name="nome-completo" required></input>
+                    </div>
+                    
+                    <div class="input-group-text">
+                        <label for="cpf">CPF:</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="estado">Estado:</label>
+                        <select id="estado" name="estado" required>
+                            <optgroup label="UF">
+                                <option>a</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="cidade">Cidade:</label>
+                        <input id="cidade" type="text" name="cidade" placeholder="Cidade" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="numero">Telefone:</label>
+                        <input id="numero" type="tel" name="telefone" placeholder="(xx) x xxxx-xxxx" required></input>
+                    </div>
+                
+
+                    <div class="input-group-text">
+                        <label for="tipo-sanguineo">Tipo Sanguíneo:</label>
+                        <select id="tipo-sanguineo" name="tipo-sanguineo" required>
+                            <optgroup label="Tipos">
+                                <option value="a+">A+</option>
+                                <option value="a-">A-</option>
+                                <option value="b+">B+</option>
+                                <option value="b-">B-</option>
+                                <option value="ab+">AB+</option>
+                                <option value="ab-">AB-</option>
+                                <option value="o+">O+</option>
+                                <option value="o-">O-</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    
+                    <div id="gender-title">
+                        <h4>Gênero do paciente:</h4>
+                    </div>
+
+                    <div class="gender-input">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Feminino</label>
+
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Masculino</label>
+                    </div>
+                </div>
+
+                <div id="area-button">
+                    <button class="btn" type="button" onclick="location.href='#'">Cadastrar</button>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>

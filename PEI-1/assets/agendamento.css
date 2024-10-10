@@ -12,11 +12,6 @@ button {
     margin-top: 40px;
 }
 
-#title {
-    margin-top: 3rem;
-}
-
-
 #input-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
