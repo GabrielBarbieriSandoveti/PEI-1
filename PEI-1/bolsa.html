@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hemoware:Bolsas</title>
+        <link rel="stylesheet" type="text/css" href="assets/all.css">
+        <link rel="stylesheet" type="text/css" href="assets/bolsa.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="nav-bar">
+            <div id="nav-title">
+                <h1>Hemoware</h1>
+            </div>
+            <div class="nav-list">
+                <a href="referencias.html">Home</a>
+                <a href="index.html">Sair</a>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="area-title">
+                <div id="title">
+                    <h2>Bolsas</h2>
+                </div>
+            </div>
+
+            <form>
+                <div id="input-group">
+                    <div class="input-group-text">
+                        <label>Quantidade de bolsas:</label>
+                        <input id="bolsas" type="text" name="bolsas" placeholder="Quantia" required>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label>Tipo sanguíneo:</label>
+                        <select id="tipo-sanguineo" name="tipo-sanguineo" required>
+                            <optgroup label="Tipos">
+                                <option value="a">A</option>
+                                <option value="a">A</option>
+                                <option value="b">B</option>
+                                <option value="b">B</option>
+                                <option value="ab">AB</option>
+                                <option value="ab">AB</option>
+                                <option value="o">O</option>
+                                <option value="o">O</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label>Fator RH:</label>
+                        <select id="fator-rh" name="fator-rh" required>
+                            <optgroup label="Fator RH">
+                                <option value="+">+</option>
+                                <option value="-">-</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <button class="btn" type="submit" onclick="location.href='#'">Adicionar</button>
+                </div>
+                
+                <div id="estoque">
+                    <div id="area-title">    
+                        <div id="title">
+                            <h2>Estoque:</h2>
+                        </div>
+                    </div>
+                    
+                    <!-- ARRUMAR ESSE LABEL -->
+                    <label>Total:</label>
+
+                    <div class="estoque-bolsas">
+
+                        <div  class="estoque-tipos">
+                            <label>A+:</label>
+                            <label>A-:</label>
+                        </div>
+
+                        <div  class="estoque-tipos">
+                            <label>B+ :</label>
+                            <label>B- :</label>
+                        </div>
+
+                        <div  class="estoque-tipos">
+                            <label>AB+ :</label>
+                            <label>AB- :</label>
+                        </div>
+
+                        <div  class="estoque-tipos">
+                            <label>O+ :</label>
+                            <label>O- :</label>
+                        </div>
+
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
