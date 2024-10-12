@@ -15,8 +15,13 @@
 }
 
 button {
-    width: 100%;
+    width: 340px;
     height: 40px;
+}
+
+#area-button {
+    width: 100%;
+    gap: 10px;
 }
 
 #estoque {
