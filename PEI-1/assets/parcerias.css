@@ -1,0 +1,44 @@
+#area-parcerias {
+    height: 283px;
+}
+
+#parcerias {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+}
+
+.title-parcerias h3 {
+    border-bottom: 2px solid #004075;
+    width: 80%;
+}
+
+.informacoes-parcerias {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes-parcerias h6{
+    text-decoration: none;
+    font-weight:600;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.informacoes-parcerias label {
+    font-size: 0.8rem;
+    color: grey;
+    margin-left: 5px;
+}
+
+.informacoes-parcerias div{
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+}

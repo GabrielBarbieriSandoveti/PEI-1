@@ -54,6 +54,13 @@ button {
     border-top-left-radius: 10px;
     box-shadow: 0 -4px 3px -3px #004075;
 }
+
+#sub-container {
+    border: 2px solid #004075;
+    margin-top: 15px;
+    height: 325px;
+}
+
 /* Fim */
 
 /* Formatação do cabeçalho do container */
@@ -122,7 +129,7 @@ button {
     width: 175px;
     background: #004075;
     list-style-type: none;
-    margin: 15px 0 0 0;
+    margin: 0;
     padding: 0;
 }
 
