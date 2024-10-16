@@ -114,6 +114,22 @@ button {
     background: #004075;
 }
 
+#nav-vertical ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 40px;
+    width: 175px;
+    background: #004075;
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+li{
+    padding: 0 10px 0 10px;
+}
+
 #nav-title {
     margin-left: 50px;
     font-weight: 1.5rem;
@@ -121,16 +137,23 @@ button {
     font-weight: 2rem;
 }
 
-#nav-bar a {
+#nav-bar a,
+#nav-vertical a 
+{
     font-size: 1.2rem;
     color: #fff;
     position: relative;
     font-weight: 500;
     text-decoration: none;
+}
+
+#nav-bar a{
     margin-right: 40px;
 }
 
-#nav-bar a::before {
+#nav-bar a::before,
+#nav-vertical a::before
+{
     content: '';
     position: absolute;
     top: 100%;
@@ -141,6 +164,8 @@ button {
     transition: 100ms;
 }
 
-#nav-bar a:hover:before {
+#nav-bar a:hover::before,
+#nav-vertical a:hover::before
+{
     width: 100%;
 }
