@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hemoware:Cadastro de parceiros</title>
+        <link rel="stylesheet" type="text/css" href="/PEI-1/assets/css/geral-base-estilo-html/all.css">
+        <link rel="stylesheet" type="text/css" href="/PEI-1/assets/css/gestão/parcerias.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="nav-bar">
+            <div id="nav-title">
+                <h1>Hemoware</h1>
+            </div>
+            <div class="nav-list">
+                <a href="../interface-de-botões/interface-de-botoes.html">Home</a>
+                <a href="../login/index.html">Sair</a>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="area-title">
+                <div id="title">
+                    <h2>Cadastro de Parceria</h2>
+                </div>
+            </div>
+
+            <div id="sub-container">
+                <div id="nav-vertical">
+                    <div class="nav-list">
+                        <ul>
+                            <li class="selecionado"><a href="parcerias.html">Lista</a></li>
+                            <li class="selecionado"><a href="">Cadastro</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <form>
+                    <div id="input-group">
+                        <div class="input-group-text">
+                            <label for="nome-instituicao">Nome da Instituição:</label>
+                            <input id="nome-instituicao" type="text" name="nome-instituicao" placeholder="Hospital/Hemocentro" required></input>
+                        </div>
+
+                        <div class="input-group-text">
+                            <label for="numero">contato:</label>
+                            <input id="numero" type="tel" name="contato" placeholder="(xx) x xxxx-xxxx" required></input>
+                        </div>
+                        
+                        <div class="input-group-text">
+                            <label for="email">E-Mail:</label>
+                            <input id="email" type="email" name="email" placeholder="exemplo@hemoware.com.br" required></input>
+                        </div>
+                    </div>
+
+                    <div id="area-button">
+                        <button class="btn" type="submit" onclick="location.href='#'">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

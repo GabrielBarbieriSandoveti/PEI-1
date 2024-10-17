@@ -41,3 +41,20 @@
     flex-direction: row;
     line-height: 25px;
 }
+
+#input-group {
+    margin-top: 0.8rem;
+}
+
+.input-group-text {
+    flex-direction: column;
+}
+
+.input-group-text input{
+    height: 25px;
+}
+
+button {
+    width: 60%;
+    height: 40px;
+}
