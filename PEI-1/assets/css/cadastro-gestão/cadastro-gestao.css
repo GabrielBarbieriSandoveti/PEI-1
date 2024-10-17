@@ -1,3 +1,7 @@
+/*
+ESTE ARQUIVO USA NO cadastro.html E NO gestão.html
+*/
+
 button {
     width: 9.5rem;
     height: 6rem;
@@ -6,7 +10,6 @@ button {
 #container  {
     height: 45%;
 }
-
 
 #area-button {
     display: flex;
