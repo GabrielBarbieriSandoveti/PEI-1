@@ -5,9 +5,103 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hemoware:Pré-Triagem</title>
         <link rel="stylesheet" type="text/css" href="../../assets/css/geral-base-estilo-html/all.css">
-        <link rel="stylesheet" type="text/css" href="">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/pretriagem/pretriagem.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
     </head>
     <body>
-        
+        <div id="nav-bar">
+            <div id="nav-title">
+                <h1>Hemoware</h1>
+            </div>
+            <div class="nav-list">
+                <a href="../interface-de-botões/interface-de-botoes.html">Home</a>
+                <a href="../login/index.html">Sair</a>
+            </div>
+        </div>
+
+        <div id="container">
+            <div id="area-title">
+                <div id="title">
+                    <h2>Pré-Triagem</h2>
+                </div>
+            </div>
+
+            <form>
+                <div id="input-group">
+                    <div class="input-group-text">
+                        <label for="">Nome do doador:</label>
+                        <!--    
+                            O id="nomedoador ta em uso para formatação
+                            no arquivo pretriagem.css
+                        " -->
+                        <input id="nomedoador" type="text" name="" placeholder="Nome completo" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label>Teve alguma doença grave nos últimos meses?</label>
+                        <label for="">Sim</label>
+                        <input id="" type="radio" name="escolha1" value="" required></input>
+                        <label for="">Não</label>
+                        <input id="" type="radio" name="escolha1" value="" required></input>
+                    </div>
+                    
+                    <div class="input-group-text">
+                        <label for="">Teve alguma cirurgia recente?</label>
+                        <label>Sim</label>
+                        <input id="" type="radio" name="escolha2" value="" required></input>
+                        <label>Não</label>
+                        <input id="" type="radio" name="escolha2" value="" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="">Está tomando algum medicamento?</label>
+                        <label>Sim</label>
+                        <input id="" type="radio" name="escolha3" value="" required></input>
+                        <label>Não</label>
+                        <input id="" type="radio" name="escolha3" value="" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="">Teve alguma reação alérgica?</label>
+                        <label>Sim</label>
+                        <input id="" type="radio" name="escolha4" value="" required></input>
+                        <label>Não</label>
+                        <input id="" type="radio" name="escolha4" value="" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="">Já usou drogas?</label>
+                        <label>Sim</label>
+                        <input id="" type="radio" name="escolha5" value="" required></input>
+                        <label>Não</label>
+                        <input id="" type="radio" name="escolha5" value="" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="">Teve muitos parceiros sexuais?</label>
+                        <label>Sim</label>
+                        <input id="" type="radio" name="escolha6" value="" required></input>
+                        <label>Não</label>
+                        <input id="" type="radio" name="escolha6" value="" required></input>
+                    </div>
+
+                    <div class="input-group-text">
+                        <label for="">Fez alguma viagem internacional recentemente?</label>
+                        <label>Sim</label>
+                        <input id="" type="radio" name="escolha7" value="" required></input>
+                        <label>Não</label>
+                        <input id="" type="radio" name="escolha7" value="" required></input>
+                    </div>
+                    
+                </div>
+
+                <div id="area-button">
+                    <button class="btn" type="submit" onclick="location.href='#'">Enviar</button>
+                </div>
+            </form>
+
+        </div>
     </body>
 </html>

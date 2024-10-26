@@ -1,0 +1,24 @@
+#title {
+    margin-bottom: 15px;
+}
+
+#input-group #nomedoador {
+    width: 50%;
+}
+
+.input-group-text {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px 0 5px 0;
+}
+
+.input-group-text label {
+    margin: 0 5px 0 5px;
+}
+
+button {
+    margin-top: 10px;
+    width: 60%;
+    height: 40px;
+}
