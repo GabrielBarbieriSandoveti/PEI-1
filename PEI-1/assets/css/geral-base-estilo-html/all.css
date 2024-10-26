@@ -14,7 +14,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: "Poppins", sans-serif;
-    background: url(/PEI-1/assets/imagens/backgroundimage.jpg);
+    background: url(../../imagens/backgroundimage.jpg);
 }
 
 /* Formatação dos botões */
