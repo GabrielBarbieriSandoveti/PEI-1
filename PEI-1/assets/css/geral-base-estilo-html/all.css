@@ -29,6 +29,10 @@ button {
     font-weight: 600;
 }
 
+button:has(label) {
+    background-color: #004075;
+}
+
 #area-button {
     display: flex; 
     justify-content: center;
