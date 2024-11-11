@@ -1,15 +1,8 @@
-#estoque > #area-title {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-#estoque #title {
-    margin-top: 1.5rem;
-}
-
 #input-group {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin: 35px 0 25px 0;    
     width: 100%;
 }
@@ -55,4 +48,14 @@ button {
     flex-direction: column;
     padding: 10px;
     height: 100px;
+}
+
+#estoque > #area-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#estoque #title {
+    margin-top: 1.5rem;
 }
