@@ -34,13 +34,17 @@ button {
 }
 
 .estoque-bolsas {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.estoque-bolsas label{
+    padding: 5px;
 }
 
 .estoque-tipos {
-    border-top: 1px solid;
-    border-bottom: 1px solid;
     display: flex;
     justify-content: center;
     flex-direction: column;
