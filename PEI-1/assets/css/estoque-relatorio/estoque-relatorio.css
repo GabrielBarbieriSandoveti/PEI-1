@@ -1,5 +1,11 @@
-#title {
-    margin-top: 0;
+#estoque > #area-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#estoque #title {
+    margin-top: 1.5rem;
 }
 
 #input-group {
@@ -15,7 +21,6 @@
 }
 
 button {
-    /* cor alterada */
     background-color: #004075;
     width: 340px;
     height: 40px;
