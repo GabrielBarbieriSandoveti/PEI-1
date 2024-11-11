@@ -8,14 +8,14 @@ h4 {
 }
 
 #area-button {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     width: 100%;
 }
 
 #input-group {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 1.5rem;
+    margin-top: 4rem;
 }
 
 .input-group-text {
