@@ -4,6 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hemoware:Relatório Doador</title>
+        <link rel="stylesheet" type="text/css" href="../../assets/css/geral-base-estilo-html/all.css">
+        <link rel="stylesheet" type="text/css" href="../../assets/css/relatório/relatorios.css">
     </head>
     <body>
         <div id="nav-bar">
@@ -15,61 +17,74 @@
                 <a href="../login/index.html">Sair</a>
             </div>
         </div>
-        
-        <div class="top-bar">
-            <div class="title-bar">
-                <h3>HEMOWARE</h3>
-            </div>
-            <div class="top-link">
-                <div class="link-bar">
-                    <a href="">Portal</a>
-                </div>
 
-                <div class="link-bar">
-                    <a href="">Cadastro</a>
-                </div>
-
-                <div class="link-bar">
-                    <a href="">Relatórios e Análises</a>
-                </div>
-
-                <div class="link-bar">
-                    <a href="">Pré-Triagem</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-relatorio">
-            <div class="title-relatorio">
-                <h2>Relatório de Doação</h2>
-            </div>
-            <div class="descricao-dados">
-                <div class="labels-dados">
-                    Nome Completo:
-                </div>
-                <div class="labels-dados">
-                    CPF:
-                </div>
-                <div class="labels-dados">
-                    Idade:
-                </div>
-                <div class="labels-dados">
-                    Sexo:
-                </div>
-                <div class="labels-dados">
-                    Tipo Sanguíneo:
-                </div>
-                <div class="labels-dados">
-                    Qnt. de Bolsas:
+        <div id="container">
+            <div id="area-title">
+                <div id="title">
+                    <h2>Relatório</h2>
                 </div>
             </div>
 
-            <div id="check-register">
-                <div class="btn">
-                    <button type="button" onclick="location.href='#'">Cadastro Completo</button>
+            <div id="relatorio">
+                <div id="area-title">    
+                    <div id="title">
+                        <h3>Entrada</h3>
+                    </div>
+                </div>
+
+                <div class="estoque-bolsas">
+                        <label>Total:</label>
+                    <div class="estoque-tipos">
+                        <label>A+:</label>
+                        <label>A-:</label>
+                    </div>
+
+                    <div class="estoque-tipos">
+                        <label>B+ :</label>
+                        <label>B- :</label>
+                    </div>
+
+                    <div class="estoque-tipos">
+                        <label>AB+ :</label>
+                        <label>AB- :</label>
+                    </div>
+
+                    <div class="estoque-tipos">
+                        <label>O+ :</label>
+                        <label>O- :</label>
+                    </div>
+
+                </div>
+
+                <div id="area-title">    
+                    <div id="title">
+                        <h3>Saída</h3>
+                    </div>
+                </div>
+
+                <div class="estoque-bolsas">
+                        <label>Total:</label>
+                    <div class="estoque-tipos">
+                        <label>A+:</label>
+                        <label>A-:</label>
+                    </div>
+
+                    <div class="estoque-tipos">
+                        <label>B+ :</label>
+                        <label>B- :</label>
+                    </div>
+
+                    <div class="estoque-tipos">
+                        <label>AB+ :</label>
+                        <label>AB- :</label>
+                    </div>
+
+                    <div class="estoque-tipos">
+                        <label>O+ :</label>
+                        <label>O- :</label>
+                    </div>
                 </div>
             </div>
-
         </div>
     </body>
 </html>
