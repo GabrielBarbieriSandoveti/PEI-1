@@ -14,23 +14,21 @@ body {
     height: 100vh;
     margin: 0;
     font-family: "Poppins", sans-serif;
-    background: url(../../imagens/backgroundimageteste.jpg);
+    background-image: url(../../imagens/backgroundimageteste.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Formatação dos botões */
 button {
     border: none;
-    background-color: #6a6a6a;
+    background-color: #004075;
     color: white;
     text-decoration: none;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     font-weight: 600;
-}
-
-button:has(label) {
-    background-color: #004075;
 }
 
 #area-button {
