@@ -1,4 +1,5 @@
---vai se chamar schema.sql
+--SCHEMA.SQL
+--Criando as tabelas, primary keys e foreign keys do sistema.
 
 create DBHemoware
 use DBHemoware
@@ -33,7 +34,7 @@ create table PreTriagem
 	Peso DECIMAL (5,2) not null,
 	Altura DECIMAL(5,2) not null,
 	PressaoArterial VARCHAR(6) CHECK (PressaoArterial IN ('Baixa', 'Alta', 'Normal')) not null,
-	TipoSanguineo CHAR(3) CHECK (TipoSanguineo IN ('A+', 'B+', 'AB+', 'O+', 'O-', 'A-', 'B-', '-AB')) not null,
+	TipoSanguineo CHAR(3) CHECK (TipoSanguineo IN ('A+', 'B+', 'AB+', 'O+', 'O-', 'A-', 'B-', 'AB-')) not null,
 	TesteHemoglobina DECIMAL(4,1) not null,
 	ResultadoPT VARCHAR(9) CHECK (ResultadoPT IN ('Aprovado', 'Reprovado')) not null,
 	CONSTRAINT FK_PretriagemXCadastrado foreign key (IDCadastrado) references Cadastrados(IDCadastrado)
@@ -109,3 +110,5 @@ create table Transfusao
 	CONSTRAINT FK_TransfusaoXPaciente foreign key (IDPaciente) references Pacientes (IDPaciente),
 	CONSTRAINT FK_TransfusaoXAgendamento foreign key (IDAgendamento) references Agendamento(IDAgendamento)
 );
+
+
